@@ -1,0 +1,26 @@
+In linux or putty
+
+1 sudo apt update====installs git
+
+2 git clone repo
+
+3 ls ==== will show all the available folders
+
+4 cd to repo folder
+
+5 docker -v === will show docker installation command
+
+6 sudo apt install docker.io ====installs docker
+
+7 sudo docker build
+
+8 sudo docker build -t anyname .
+
+9 sudo docker run -d -p 5001:5001 above name ==this 5001 is from app.listen() of server.js file
+
+10 sudo docker ps === will show docker image created or not
+
+11 copy public ip of linux ec2 instance paste it in browser and infront of that write :5001  
+  
+
+
